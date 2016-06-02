@@ -1,0 +1,28 @@
+{
+  "name": "default-arguments",
+  "version": "1.0.0",
+  "description": "It takes a function as an argument, along with an object containing default values for that function's arguments, and returns another function which defaults to the right values.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/tape/bin/tape ./test/index.js | ./node_modules/.bin/tap-diff",
+    "coverage": "./node_modules/istanbul/lib/cli.js cover ./test/index.js",
+    "coverage-coveralls": "./node_modules/nyc/bin/nyc.js --reporter=lcov --reporter=text-lcov npm test | ./node_modules/coveralls/bin/coveralls.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadimgoncharov/default-arguments.git"
+  },
+  "author": "Vadim Goncharov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vadimgoncharov/default-arguments/issues"
+  },
+  "homepage": "https://github.com/vadimgoncharov/default-arguments#readme",
+  "devDependencies": {
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.3",
+    "nyc": "^6.4.4",
+    "tap-diff": "^0.1.1",
+    "tape": "^4.5.1"
+  }
+}
