@@ -1,5 +1,6 @@
 # Default Arguments
 
+![Node Version 6.x.x](https://img.shields.io/badge/node-6.x.x-brightgreen.svg)
 [![Build Status](https://img.shields.io/travis/vadimgoncharov/default-arguments/master.svg)](https://travis-ci.org/vadimgoncharov/default-arguments)
 [![Coverage Status](https://img.shields.io/coveralls/vadimgoncharov/default-arguments/master.svg)](https://coveralls.io/r/vadimgoncharov/default-arguments)
 
